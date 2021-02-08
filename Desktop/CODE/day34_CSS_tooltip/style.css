@@ -83,3 +83,44 @@ html,body{
       box-shadow: 0 0 0 50px rgba(72, 170, 72, 0)
     }
   }
+
+  .item-tooltip .tooltip-dot {
+    z-index: 3;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    -webkit-transform: translate(-0%,-0%) scale(.95);
+    transform: translate(-0%,-0%) scale(.95);
+    -webkit-animation: item_tooltip_border 2s linear infinite;
+    animation: item_tooltip_border 2s linear infinite;
+    margin: auto;
+  }
+
+@-webkit-keyframes item_tooltip_border {
+    0%,
+    100% {
+      border-color: rgba(255, 255, 255, .6);
+      -webkit-transform: translate(-50%, -50%) scale(.95);
+      transform: translate(-0%, -0%) scale(.95)
+    }
+    50% {
+      border-color: rgba(255, 255, 255, .3);
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-0%, -0%) scale(1)
+    }
+  }
+  @keyframes item_tooltip_border {
+    0%,
+    100% {
+      border-color: rgba(255, 255, 255, .6);
+      -webkit-transform: translate(-50%, -50%) scale(.95);
+      transform: translate(-0%, -0%) scale(.95)
+    }
+    50% {
+      border-color: rgba(255, 255, 255, .3);
+      -webkit-transform: translate(-50%, -50%) scale(1);
+      transform: translate(-0%, -0%) scale(1)
+    }
+  }
