@@ -1,6 +1,6 @@
 html,body{
     height: 100%;
-    background: grey;
+    background: black;
     line-height: 24px;
     letter-spacing: 1px;
 }
@@ -9,6 +9,7 @@ html,body{
     height: 500px;
     width: 500px;
     margin: 250px auto;
+    margin-top: 400px;
 }
 
 .item-tooltip .tooltip {
@@ -43,7 +44,7 @@ html,body{
     left: 50%;
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
-    border-radius: 50%;
+
     width: 2px;
     height: 2px;
     z-index: 1;
@@ -87,7 +88,6 @@ html,body{
   .item-tooltip .tooltip-dot {
     z-index: 3;
     border: 1px solid #fff;
-    border-radius: 50%;
     width: 60px;
     height: 60px;
     display: block;
@@ -126,8 +126,6 @@ html,body{
   }
 
   .item-tooltip .tooltip-radius {
-    background-color: rgba(255,255,255,0.1);
-    border-radius: 50%;
     width: 250px;
     height: 250px;
     position: absolute;
@@ -162,7 +160,7 @@ html,body{
   }
 
   .item-tooltip .tooltip-content {
-    color: #fff;
+    color: purple;
     width: 300px;
     position: absolute;
     z-index: 5;
@@ -172,13 +170,12 @@ html,body{
     -webkit-transition: opacity .7s ease,visibility .7s ease;
     transition: opacity .7s ease,visibility .7s ease;
     pointer-events: none;
-    color: #fff;
     visibility: hidden;
     pointer-events: none
   }
 
   .item-tooltip .tooltip:hover .tooltip-content {
-    color: #fff;
+    color: purple;
     width: 300px;
     position: absolute;
     z-index: 5;
@@ -188,7 +185,7 @@ html,body{
     -webkit-transition: opacity .7s ease,visibility .7s ease;
     transition: opacity .7s ease,visibility .7s ease;
     pointer-events: none;
-    color: #fff;
+    color: purple;
     visibility: hidden;
     pointer-events: none
   }
@@ -198,7 +195,7 @@ html,body{
     bottom: 0;
     left: 0;
     content: '';
-    background-color: #fff;
+    background-color: purple;
     height: 1px;
     position: absolute;
     transition: width 0.4s;
@@ -217,7 +214,7 @@ html,body{
     left: 0;
     width: 80px;
     content: '';
-    background-color: #fff;
+    background-color: purple;
     height: 1px;
     position: absolute;
     opacity: 1;
