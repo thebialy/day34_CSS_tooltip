@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
 
 html,body{
     height: 100%;
@@ -164,9 +164,11 @@ html,body{
 
 .item-tooltip .tooltip-content {
     color: purple;
-    font-family: 'Jomhuria', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+    line-height: 30px;
     width: 300px;
-    font-size: 30px;
+    font-size: 20px;
     position: absolute;
     z-index: 5;
     padding: 12px 0;
